@@ -1,0 +1,216 @@
+import datetime
+d = datetime.datetime.now().hour
+print(datetime.datetime.now())
+if d == 0 - 12:
+    print("صباح الخير ")
+else:
+    print("مساء الخير")
+
+    o = input("اكتب اسم المستحدم:")
+    k = input("اكتب كلمة المرور:")
+
+    if o == 'sulaiman' and k == '1234':
+        print("اهلًا سليمان")
+        print("ياهلا")
+        print("جننتك شوية العملية الحسابية فمخك صح؟ ")
+        print("ولا تشيل هم")
+
+
+        def add(x, y):
+            return x + y
+
+
+        def multibly(x, y):
+            return x * y
+
+
+        def subtract(x, y):
+            return x - y
+
+
+        def divide(x, y):
+            return x / y
+
+
+        def sqrt(x):
+            return x / 3
+
+
+        print("العمليات المتاحة")
+        print("جمع")
+        print("ضرب")
+        print("تربيع")
+        print("طرح")
+        print("قسمة")
+        print("جذر")
+        while True:
+
+            choise = input("اكتب العملية المطلوبة:")
+            # Check if choice is one of the four options
+            if choise in ('جمع', 'ضرب', 'تربيع', 'قسمة', 'طرح'):
+                n = float(input("اكتب الرقم الأول"))
+                r = float(input("اختر الرقم الذي تريد ان تفعل الفعلة فيه"))
+                if choise == 'جمع':
+                    print(n, "+", r, "=", add(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'تربيع':
+                    print(n, "اس", r, "=", pow(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'ضرب':
+                    print(n, "*", r, "=", multibly(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'قسمة':
+                    print(n, "/", r, "=", divide(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'طرح':
+                    print(n, "-", r, "=", subtract(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+
+            elif choise in 'جذر':
+                s = float(input("اكتب الرقم الذي تريد جذره"))
+                if choise == 'جذر':
+                    import math
+
+                    print(s, "جذر", "=", math.sqrt(s))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+
+            else:
+                print("نعتذر العملية خاطئة")
+
+    elif o == 'omar' and k == '4321':
+        print("اهلًا عمر")
+        print("ياهلا")
+        print("جننتك شوية العملية الحسابية فمخك صح؟ ")
+        print("ولا تشيل هم")
+
+
+        def add(x, y):
+            return x + y
+
+
+        def multibly(x, y):
+            return x * y
+
+
+        def subtract(x, y):
+            return x - y
+
+
+        def divide(x, y):
+            return x / y
+
+
+        def sqrt(x):
+            return x / 3
+
+
+        print("العمليات المتاحة")
+        print("جمع")
+        print("ضرب")
+        print("تربيع")
+        print("طرح")
+        print("قسمة")
+        print("جذر")
+        while True:
+
+            choise = input("اكتب العملية المطلوبة:")
+            # Check if choice is one of the four options
+            if choise in ('جمع', 'ضرب', 'تربيع', 'قسمة', 'طرح'):
+                n = float(input("اكتب الرقم الأول"))
+                r = float(input("اختر الرقم الذي تريد ان تفعل الفعلة فيه"))
+                if choise == 'جمع':
+                    print(n, "+", r, "=", add(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'تربيع':
+                    print(n, "اس", r, "=", pow(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'ضرب':
+                    print(n, "*", r, "=", multibly(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'قسمة':
+                    print(n, "/", r, "=", divide(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'طرح':
+                    print(n, "-", r, "=", subtract(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+
+            elif choise in 'جذر':
+                s = float(input("اكتب الرقم الذي تريد جذره"))
+                if choise == 'جذر':
+                    import math
+
+                    print(s, "جذر", "=", math.sqrt(s))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+
+            else:
+                print("نعتذر العملية خاطئة")
+    elif o == 'ktoz' and k == '1234567':
+        print("اهلًا محمد الشيخي")
+        print("ياهلا")
+        print("جننتك شوية العملية الحسابية فمخك صح؟ ")
+        print("ولا تشيل هم")
+
+
+        def add(x, y):
+            return x + y
+
+
+        def multibly(x, y):
+            return x * y
+
+
+        def subtract(x, y):
+            return x - y
+
+
+        def divide(x, y):
+            return x / y
+
+
+        def sqrt(x):
+            return x / 3
+
+
+        print("العمليات المتاحة")
+        print("جمع")
+        print("ضرب")
+        print("تربيع")
+        print("طرح")
+        print("قسمة")
+        print("جذر")
+        while True:
+
+            choise = input("اكتب العملية المطلوبة:")
+            # Check if choice is one of the four options
+            if choise in ('جمع', 'ضرب', 'تربيع', 'قسمة', 'طرح'):
+                n = float(input("اكتب الرقم الأول"))
+                r = float(input("اختر الرقم الذي تريد ان تفعل الفعلة فيه"))
+                if choise == 'جمع':
+                    print(n, "+", r, "=", add(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'تربيع':
+                    print(n, "اس", r, "=", pow(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'ضرب':
+                    print(n, "*", r, "=", multibly(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'قسمة':
+                    print(n, "/", r, "=", divide(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+                elif choise == 'طرح':
+                    print(n, "-", r, "=", subtract(n, r))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+
+            elif choise in 'جذر':
+                s = float(input("اكتب الرقم الذي تريد جذره"))
+                if choise == 'جذر':
+                    import math
+
+                    print(s, "جذر", "=", math.sqrt(s))
+                    print("شكرًا لأستخدامك حاسبة سليمان")
+
+            else:
+                print("نعتذر العملية خاطئة")
+    else:
+        print("أسم المستخدم أو كلمة المرور خطأ,انقلع")
+       
